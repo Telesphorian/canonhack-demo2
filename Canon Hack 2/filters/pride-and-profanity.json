@@ -1,0 +1,30 @@
+{
+  "id": "pride-and-profanity",
+  "rules": [
+    {
+      "pattern": "\\bfool\\b",
+      "flags": "gi",
+      "replacements": [
+        "nincompoop",
+        "mooncalf",
+        "clodpate"
+      ]
+    },
+    {
+      "pattern": "\\bass\\b",
+      "flags": "gi",
+      "replacements": [
+        "dolt",
+        "simpleton"
+      ]
+    },
+    {
+      "pattern": "\\bscoundrel\\b",
+      "flags": "gi",
+      "replacements": [
+        "rascal",
+        "blackguard"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "daddy-darcy",
+  "rules": [
+    {
+      "pattern": "\\\\bMr\\\\.\\\\s*Darcy\\\\b",
+      "flags": "g",
+      "replace": "Daddy"
+    },
+    {
+      "pattern": "(?<![A-Za-z])Darcy(?![A-Za-z])",
+      "flags": "g",
+      "replace": "Daddy"
+    }
+  ]
+}

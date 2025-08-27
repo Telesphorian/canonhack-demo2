@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CanonHack • Two-Filter Demo</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <header class="appbar">
+    <h1>CanonHack • Two-Filter Demo</h1>
+    <div class="controls">
+      <fieldset id="filterFields">
+        <legend>Filters</legend>
+        <label class="cb"><input type="checkbox" value="daddy-darcy" checked> Daddy Darcy</label>
+        <label class="cb"><input type="checkbox" value="pride-and-profanity"> Pride &amp; Profanity</label>
+        <div class="stack-warn">⚠️ Stacking filters may cause delightful nonsense and occasional gibberish.</div>
+      </fieldset>
+      <button id="resetBtn">Reset</button>
+    </div>
+  </header>
+  <div class="wrapper">
+    <main id="reader"><article id="content"></article></main>
+  </div>
+  <footer class="foot">
+    <small>Demo: Filters overlay client-side; original text is unchanged.</small>
+  </footer>
+  <script type="module" src="scripts/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+body{margin:0;font:16px system-ui}
+.appbar{padding:10px;background:#fafafa;border-bottom:1px solid #ddd}
+.controls{display:flex;gap:12px;flex-wrap:wrap}
+.wrapper{max-width:900px;margin:0 auto;padding:16px}
+#content{line-height:1.7;max-width:68ch;white-space:pre-wrap}
+.stack-warn{font-size:.85em;color:#a00;font-style:italic}
+.foot{padding:12px;border-top:1px solid #ddd;color:#666;text-align:center}
